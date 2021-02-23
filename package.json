@@ -1,0 +1,26 @@
+{
+  "name": "testpr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tinashe-CJ/TestPR.git"
+  },
+  "author": "Tinashe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tinashe-CJ/TestPR/issues"
+  },
+  "homepage": "https://github.com/Tinashe-CJ/TestPR#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
