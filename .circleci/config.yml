@@ -16,7 +16,9 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: install-npm-wee
-          command: npm install
+          commands:
+            - npm install
+            - chmod +rwx ./node_modules/.bin/jest
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
