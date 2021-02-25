@@ -1,5 +1,5 @@
 function sumFail(a , b){
-    return a + a;
+    return a + b;
 }
 
 module.exports = sumFail;
